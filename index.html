@@ -1,35 +1,211 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="sk">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Moje portfólio — začiatok</title>
-  <!-- Vzhľad stránky je v samostatnom súbore styles.css (vrstva CSS) -->
-  <link rel="stylesheet" href="styles.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Adam Sabol | Portfólio</title>
+<meta name="description" content="Osobné portfólio Adama Sabola – návrh webu finančného poradcu od analýzy po prototyp.">
+<link rel="stylesheet" href="./styles.css">
 </head>
 <body>
+<header>
+ <div class="wrap">
+  <nav>
+   <a href="#domov" class="logo">Adam <span>Sabol</span></a>
+   <ul>
+    <li><a href="#domov">Domov</a></li>
+    <li><a href="#projekty">Projekty</a></li>
+    <li><a href="#omne">O mne</a></li>
+    <li><a href="#kontakt" class="btn btn-primary">Kontakt ↗</a></li>
+   </ul>
+  </nav>
+ </div>
+</header>
 
-  <main class="uvitanie">
-    <div class="emoji">👋</div>
-    <h1>Tu vznikne moje portfólio</h1>
-    <p class="podtext">
-      Toto je štartová stránka kurzu <strong>Tvorba webstránok</strong>.
-      Odteraz ju budeš meniť ty — s pomocou AI asistenta.
-    </p>
+<main>
+<div class="wrap">
+ <div class="hero" id="domov">
+  <div>
+   <div class="tag">● PORTFÓLIO · 2026</div>
+   <h1>Ahoj, som <em>Adam</em> Sabol.</h1>
+   <p>Učím sa tvoriť weby od prvého nápadu až po klikateľný prototyp. Moje prvé portfólio ukazuje projekt webu pre finančného poradcu – od analýzy používateľov po style guide.</p>
+   <div class="btns">
+    <a href="#projekty" class="btn btn-primary">Pozrieť projekty ↓</a>
+    <a href="#omne" class="btn btn-ghost">Viac o mne ↗</a>
+   </div>
+  </div>
+  <div class="hero-card">
+   <h3>Môj prvý web: finančný poradca</h3>
+   <ul>
+    <li><b>01</b> Pre koho web vzniká</li>
+    <li><b>02</b> Persóny</li>
+    <li><b>03</b> Informačná architektúra</li>
+    <li><b>04–05</b> Prototypy</li>
+    <li><b>06</b> GitHub a style guide</li>
+   </ul>
+  </div>
+ </div>
+</div>
 
-    <div class="karta">
-      <p class="karta-nadpis">Ako začať:</p>
-      <ol>
-        <li>Otvor <strong>Copilot Chat</strong> (ikona Copilota vpravo) — sem píšeš, čo chceš vytvoriť.</li>
-        <li>Tento súbor <code>index.html</code> si pozri v <strong>živom náhľade</strong>: pravý klik naň → <em>Show Preview</em>.</li>
-        <li>Choď na <strong>Blok 7</strong> kurzu a postupuj podľa neho.</li>
-      </ol>
+<section id="projekty">
+ <div class="wrap">
+  <div class="eyebrow">VÝBER Z MOJEJ TVORBY</div>
+  <h2>Moje projekty.</h2>
+  <p class="lead">Počas celého semestra som pracoval na návrhu webu pre finančného poradcu, ktorý pomáha ľuďom s hypotékou, poistením a investovaním. Každá úloha bola jedným krokom k hotovému webu.</p>
+
+  <div class="projects">
+
+   <article class="project">
+    <div class="p-body">
+     <div class="num">ANALÝZA / 01</div>
+     <h3>Pre koho a prečo web vzniká</h3>
+     <p><strong>Používatelia:</strong> zamestnanci, podnikatelia a rodiny, ktorí riešia hypotéku, poistenie či investovanie.</p>
+     <p><strong>Problém:</strong> ľudia nevedia, ktorý produkt je pre nich vhodný, a nechcú hodiny porovnávať ponuky. Úspech merám cez KPI: návštevnosť, odoslané formuláre, rezervácie konzultácií a dokončené kalkulácie.</p>
+     <p><strong>Moja výhoda:</strong> jednoduchý web bez zložitej terminológie a rýchly osobný kontakt s poradcom.</p>
     </div>
+    <div class="p-visual">
+     <div class="kaps">
+      <div>K<small>Kontakt</small></div>
+      <div>A<small>Analýza</small></div>
+      <div>P<small>Poradenstvo</small></div>
+      <div>S<small>Servis</small></div>
+     </div>
+    </div>
+   </article>
 
-    <p class="poznamka">
-      Keď spravíš prvú zmenu, tento text pokojne zmaž — je len na úvod.
-    </p>
-  </main>
+   <article class="project">
+    <div class="p-body">
+     <div class="num">PERSÓNY / 02</div>
+     <h3>Persóny potenciálnych klientov</h3>
+     <p>Vytvoril som tri reálne persóny, ktoré môžu byť budúcimi klientmi. Základné informácie som hľadal na LinkedIne a zvyšok som domyslel podľa toho, na čo bude web slúžiť.</p>
+    </div>
+    <div class="p-visual">
+     <div class="personas">
+      <div class="persona"><b>Martina, 29</b><i>Mentorka a koučka. Plánuje prvé bývanie, vo financiách sa necíti istá.</i></div>
+      <div class="persona"><b>Michal, 35</b><i>Content specialist. Nepravidelné príjmy, nerieši dôchodok ani poistenie príjmu.</i></div>
+      <div class="persona"><b>Miroslav, 48</b><i>Zamestnanec stavebnej firmy. Voľné financie na účte, dôveruje osobnému kontaktu.</i></div>
+     </div>
+    </div>
+   </article>
 
+   <article class="project">
+    <div class="p-body">
+     <div class="num">STRUKTÚRA / 03</div>
+     <h3>Informačná architektúra</h3>
+     <p>Rozhodol som, čo všetko bude na webe a ako to bude usporiadané: úvod, služby (hypotéky, SZČO, investície), poradňa a vzdelávanie, o mne a kontakt. Mapu som spracoval v nástroji Coogle s pomocou AI.</p>
+    </div>
+    <div class="p-visual">
+     <img class="mockup architecture" src="img/myslienkova-mapa.png" alt="Myšlienková mapa informačnej architektúry webu finančného poradcu">
+    </div>
+   </article>
+
+   <article class="project">
+    <div class="p-body">
+     <div class="num">PROTOTYP / 04</div>
+     <h3>Papierový prototyp</h3>
+     <p>Základné obrazovky webu som najprv načrtol na papier. Rýchly spôsob, ako si overiť rozloženie ešte pred prácou v počítači.</p>
+    </div>
+    <div class="p-visual two">
+     <img class="mockup paper" src="img/papierovy-prototyp-1.jpg" alt="Papierový prototyp – obrazovka 1">
+     <img class="mockup paper" src="img/papierovy-prototyp-2.jpg" alt="Papierový prototyp – obrazovka 2">
+    </div>
+   </article>
+
+   <article class="project">
+    <div class="p-body">
+     <div class="num">DIGITÁLNY PROTOTYP / 05</div>
+     <h3>Klikateľný prototyp a design brief</h3>
+     <p>Papierový prototyp som preniesol do počítača a prepojil obrazovky. Najprv som skúsil Axure, no pracovalo sa mi v ňom ťažko, tak som zvolil AI nástroj MagicPath. Vznikol aj design brief.</p>
+     <a class="p-link" href="https://reimagined-robot-5vrxpvpjg67xc7594-3000.app.github.dev/index.html?serverWindowId=bfbf0308-5dcc-4a01-b304-981ef74117af" target="_blank" rel="noopener">Prototyp ↗</a>
+    </div>
+    <div class="p-visual">
+     <svg class="mockup digital" viewBox="0 0 1200 820" role="img" aria-label="Návrh úvodnej stránky: Vaše peniaze pracujú za vás">
+      <rect width="1200" height="820" fill="#f2f5f8"/>
+      <rect x="40" y="40" width="1120" height="740" rx="26" fill="#ffffff" stroke="#dfe7f1" stroke-width="2"/>
+      <rect x="60" y="60" width="1080" height="50" rx="12" fill="#edf3f9"/>
+      <rect x="80" y="140" width="1040" height="80" rx="18" fill="#0a9be8"/>
+      <rect x="120" y="250" width="500" height="200" rx="18" fill="#f7f9fc" stroke="#dfe7f1" stroke-width="2"/>
+      <rect x="680" y="250" width="360" height="200" rx="18" fill="#f7f9fc" stroke="#dfe7f1" stroke-width="2"/>
+      <rect x="120" y="500" width="240" height="140" rx="18" fill="#f8fafc" stroke="#dfe7f1" stroke-width="2"/>
+      <rect x="400" y="500" width="240" height="140" rx="18" fill="#f8fafc" stroke="#dfe7f1" stroke-width="2"/>
+      <rect x="680" y="500" width="240" height="140" rx="18" fill="#f8fafc" stroke="#dfe7f1" stroke-width="2"/>
+      <rect x="960" y="500" width="120" height="140" rx="18" fill="#f8fafc" stroke="#dfe7f1" stroke-width="2"/>
+      <rect x="80" y="690" width="200" height="18" rx="8" fill="#e1e9f4"/>
+      <rect x="300" y="690" width="200" height="18" rx="8" fill="#e1e9f4"/>
+      <rect x="520" y="690" width="200" height="18" rx="8" fill="#e1e9f4"/>
+      <rect x="740" y="690" width="200" height="18" rx="8" fill="#e1e9f4"/>
+      <text x="150" y="287" fill="#0f1b2d" font-family="Inter, Arial, sans-serif" font-size="30" font-weight="700">Vaše peniaze</text>
+      <text x="150" y="326" fill="#0f1b2d" font-family="Inter, Arial, sans-serif" font-size="30" font-weight="700">pracujú za vás</text>
+      <text x="710" y="287" fill="#0f1b2d" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="700">Kalkulátor</text>
+      <text x="710" y="326" fill="#0f1b2d" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="700">/ AR</text>
+      <text x="150" y="560" fill="#0f1b2d" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="700">Hypotéky</text>
+      <text x="430" y="560" fill="#0f1b2d" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="700">Poistenie</text>
+      <text x="710" y="560" fill="#0f1b2d" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="700">Investície</text>
+      <text x="1000" y="560" fill="#0f1b2d" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700">Kontakt</text>
+     </svg>
+    </div>
+   </article>
+
+   <article class="project">
+    <div class="p-body">
+     <div class="num">GITHUB / 06</div>
+     <h3>Čo je web a style guide</h3>
+     <p>Začal som používať GitHub a pracovať s AI pri tvorbe webu. Zistil som, z čoho sa web skladá, a vytvoril style guide: pravidlá vzhľadu, podľa ktorých budem web tvoriť ďalej.</p>
+    </div>
+    <div class="p-visual">
+     <div class="kaps">
+      <div>HTML<small>štruktúra</small></div>
+      <div>CSS<small>vzhľad</small></div>
+      <div>GitHub<small>verzie</small></div>
+      <div>AI<small>pomocník</small></div>
+     </div>
+    </div>
+   </article>
+
+  </div>
+ </div>
+</section>
+
+<section id="omne">
+ <div class="wrap about">
+  <div>
+   <div class="eyebrow">PÁR SLOV O MNE</div>
+   <h2>Učím sa, skúšam, zlepšujem.</h2>
+  </div>
+  <div>
+   <p>Som Adam Sabol a webom sa venujem od nedávna. Baví ma premieňať nápady na konkrétne riešenia, od zistenia, čo potrebujú používatelia, až po prvý prototyp.</p>
+   <p>Nebojím sa skúšať nové nástroje. Keď mi Axure nesedel, našiel som si iný. Vždy sa snažím pochopiť, prečo veci fungujú.</p>
+   <div class="skills">
+    <span>Persóny</span><span>Informačná architektúra</span><span>Prototypovanie</span><span>Style guide</span><span>GitHub</span><span>AI nástroje</span>
+   </div>
+   <div class="mini-panel">
+    <span class="dot"></span>
+    <div>
+     <strong>Pracujem s citom pre používateľa</strong>
+     <small>Od analýzy po vizuálny koncept.</small>
+    </div>
+   </div>
+  </div>
+ </div>
+</section>
+
+<section id="kontakt">
+ <div class="wrap">
+  <div class="contact">
+   <div class="eyebrow">MÁŠ ZAUJÍMAVÝ PROJEKT?</div>
+   <h2>Poďme vytvoriť niečo dobré.</h2>
+   <p>Nové nápady, spolupráca aj spätná väzba sú vítané.</p>
+   <a class="btn btn-primary" href="mailto:tvoj@email.sk">tvoj@email.sk ↗</a>
+  </div>
+ </div>
+</section>
+</main>
+
+<footer>
+ <div class="wrap">
+  <span>© 2026 Adam Sabol · Osobné portfólio</span>
+  <a href="#domov">Späť na začiatok ↑</a>
+ </div>
+</footer>
 </body>
 </html>

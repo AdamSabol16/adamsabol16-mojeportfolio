@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 700" role="img" aria-labelledby="title desc">
+  <title id="title">Papierový prototyp 1</title>
+  <desc id="desc">Náčrt úvodnej obrazovky webu finančného poradcu s navigáciou a dvoma obsahovými blokmi.</desc>
+  <rect width="1000" height="700" fill="#f5f6f8"/>
+  <rect x="50" y="50" width="900" height="600" rx="30" fill="#ffffff" stroke="#d4dce7" stroke-width="2"/>
+  <rect x="80" y="150" width="840" height="40" rx="14" fill="#0a9be8"/>
+  <rect x="80" y="230" width="840" height="110" rx="20" fill="#eaf3fb"/>
+  <rect x="90" y="365" width="360" height="195" rx="20" fill="#fbfcfd" stroke="#d7e1ea" stroke-width="2"/>
+  <rect x="500" y="365" width="400" height="195" rx="20" fill="#fbfcfd" stroke="#d7e1ea" stroke-width="2"/>
+  <rect x="90" y="585" width="820" height="35" rx="10" fill="#e4ebf5"/>
+  <text x="110" y="265" fill="#0f1b2d" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="600">Finančný poradca</text>
+  <text x="110" y="396" fill="#0f1b2d" font-family="Inter, Arial, sans-serif" font-size="26" font-weight="600">Úvod</text>
+  <text x="530" y="396" fill="#0f1b2d" font-family="Inter, Arial, sans-serif" font-size="26" font-weight="600">Služby</text>
+  <text x="110" y="610" fill="#0f1b2d" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="600">Kontakt / rezervácia</text>
+</svg>
