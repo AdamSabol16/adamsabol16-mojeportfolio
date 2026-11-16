@@ -1,26 +1,32 @@
-# Moje portfólio — začiatok 👋
+# Osobné portfólio – Adam Sabol
 
-Vitaj! Toto je tvoj štartový projekt pre predmet **Návrh a tvorba webových stránok**. Máš tu pripravené všetko, čo potrebuješ — nič neinštaluješ.
+Tento projekt predstavuje osobné portfólio, ktoré prezentuje môj návrh webu pre finančného poradcu. Stránka je zameraná na príbeh projektu: od analýzy cieľovej skupiny, cez persony, informačnú architektúru, prototypy až po finálny vizuálny koncept.
 
-## Ako začať
+## Čo projekt robí
 
-1. **Spusti si prostredie.** Ak čítaš toto priamo na GitHube, klikni zelené tlačidlo **`< > Code`** → záložka **Codespaces** → **Create codespace on main**. Po chvíli sa otvorí VS Code v prehliadači.
-2. **Otvor AI asistenta.** Vpravo klikni na ikonu **Copilot Chat** — sem budeš písať, čo chceš vytvoriť.
-3. **Pozri si svoj web.** Klikni pravým tlačidlom na súbor `index.html` → **Show Preview** (alebo *Open with Live Preview*). Otvorí sa živý náhľad, ktorý sa sám obnovuje.
-4. **Postupuj podľa predmetu** — začni **Blokom 6**.
+- predstavuje ma ako autora a môj štýl práce
+- ukazuje moje prvé projekty a návrhy webu
+- popisuje, pre koho je web určený a aké problémy rieši
+- zobrazuje kľúčové etapy tvorby webu
+- obsahuje kontaktný blok pre prípadné spolupráce
 
-## Čo tu nájdeš
+## Štruktúra projektu
 
-| Súbor / priečinok | Na čo je |
-| ----------------- | -------- |
-| `index.html` | Tvoja hlavná stránka — jej **obsah** (zatiaľ len úvodná — čoskoro ju nahradíš svojím portfóliom). |
-| `styles.css` | **Vzhľad** stránky — farby, písmo, rozloženie (vrstva CSS). |
-| `docs/` | Sem sa uloží tvoj **style guide** (dizajnová referencia z Bloku 6) a neskôr tvoj **design brief** (`zadanie-webu.md`, Blok 11). |
-| `img/` | Sem si budeš dávať **obrázky a fotky** (napr. do portfólia v Bloku 7). |
-| `.gitignore` | Hovorí gitu, čo sa **nikdy** nesmie zverejniť — napríklad súbor `.env` s tajnými kľúčmi. |
+| Súbor / priečinok | Popis |
+| ----------------- | ----- |
+| `index.html` | Hlavná webová stránka s obsahom portfólia |
+| `styles.css` | Vizuálny dizajn, farby, rozloženie a responzívnosť |
+| `img/` | Obrázky a mockupy použitých projektov |
+| `docs/` | Priečinok na návrhové materiály a dokumentáciu |
+| `.gitignore` | Zoznam súborov, ktoré sa neukladajú do Git repozitára |
 
-> **Poznámka:** Nemusíš rozumieť každému súboru. Dôležité je vedieť, že **`index.html` je tvoja stránka** a **do `img/` patria obrázky**. Zvyšok za teba spraví AI.
+## Ako stránky spustiť
 
-## Dôležité o bezpečnosti
+1. Otvor projekt v VS Code.
+2. Klikni pravým tlačidlom na súbor `index.html`.
+3. Vyber `Open with Live Preview` alebo `Show Preview`.
+4. Stránka sa zobrazí v náhľade a bude sa automaticky obnovovať pri úpravách.
 
-Tento projekt bude časom **verejný** (aby si web mohol dať online). Preto sem **nikdy nedávaj skutočné heslá ani platobné kľúče**. V kurze používame len bezcenné cvičné kľúče — viac v znalostnej báze *Bezpečnosť kľúčov*.
+## Cieľ projektu
+
+Cieľom tejto stránky je ukázať moju prácu pri tvorbe webu v študentskom projekte, zamerať sa na dizajn, komunikáciu a celkový používateľský zážitok.
